@@ -1,0 +1,56 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+
+\begin{document}
+\noindent
+{\bf Mathematics in the Real World: Math 16 / Stats 90}\\
+{\bf Prof. Jack Poulson}\\
+{\bf Midterm: May 1, 2015}\\
+
+\begin{enumerate}
+
+\item
+  Given the dataset 
+  \[
+    1, 2, 10, 10.5, 11, 11.5, 12, 15, 20,
+  \]
+  \begin{enumerate}
+  \item
+   (25 pts) Draw and label a box and whisker plot for the dataset.
+  \item 
+   (10 pts) Compute the best two-norm and max-norm estimates.
+  \end{enumerate}
+
+\item 
+  Suppose that you took $50$ random steps in a random walk where you were four 
+  times as likely to step forwards as backwards in each step.
+  \begin{enumerate}
+  \item
+    (10 pts) How many unique walks can end at $+20$? \\
+    (Providing the formula is enough.)
+  \item
+    (10 pts) What is the probability of each of the paths that ends at $+20$? \\
+    (Providing the formula is enough.)
+  \item
+    (10 pts) What is the probability of ending at $+20$ after $50$ steps? \\
+    (Providing the formula is enough.)
+  \end{enumerate}
+
+\item
+  Consider a random walk where the first step is equally-likely to be forward 
+  as backward, but subsequent steps prefer to go in the opposite direction as 
+  the preceding step by a factor of two.
+  For example, if the first step was forward, the odds of the next step being
+  backward are $2/3$. But, if the first step was forward and the second step 
+  was backward, then the odds of the third step being forward are $2/3$.
+  If the random walk is allowed to continue for {\bf three steps}:
+  \begin{enumerate}
+  \item (5 pts) List the possible final locations.
+  \item (10 pts) Compute the likelihoods of each of these locations.
+  \item (5 pts) Compute the expected location.
+  \item (10 pts) Compute the variance and Mean Absolute Deviation.
+  \item (5 pts) Compute the Interquartile Range.
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}
