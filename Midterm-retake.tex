@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+
+\begin{document}
+\noindent
+{\bf Mathematics in the Real World: Math 16 / Stats 90}\\
+{\bf Prof. Jack Poulson}\\
+{\bf Midterm retake: May 4, 2015}\\
+
+\begin{enumerate}
+
+\item
+  Given the dataset 
+  \[
+    10.5, 11.5, 2, -10, -20, 11, 12, 27, 30,
+  \]
+  \begin{enumerate}
+  \item
+   (25 pts) Draw and label a box and whisker plot for the dataset.
+  \item 
+   (10 pts) Compute the best estimates of the dataset with respect to the 
+            two-norm and max-norm.
+  \end{enumerate}
+
+\item 
+  Consider a fair random walk:
+  \begin{enumerate}
+  \item
+    (10 pts) Write down the expected change in squared distance from zero
+             if the walk is currently at position $k$ and takes one more
+             step.
+  \item
+    (10 pts) Write down the expected change in (absolute) distance from zero
+             if the walk is currently at position $k \neq 0$ and takes one more
+             random step, and compute the expected change from taking a step
+             at $k = 0$.
+  \item
+    (10 pts) Describe the behaviour (as precisely as possible) of the Variance
+             and Mean Absolute Deviation of the random walk as the number of 
+             steps increases.
+  \end{enumerate}
+
+\item
+  Consider a random walk where the first step is twice as likely to be forward
+  as backward, but subsequent steps prefer to go in the {\bf same} direction as 
+  the preceding step by a factor of two.
+  For example, if the first step was forward, the odds of the next step being
+  forward are $2/3$. But, if the first step was forward and the second step 
+  was backward, then the odds of the third step being backward are $2/3$.
+  If the random walk is allowed to continue for {\bf three steps}:
+  \begin{enumerate}
+  \item (5 pts) List the possible final locations.
+  \item (10 pts) Compute the likelihoods of each of these locations.
+  \item (5 pts) Compute the expected location.
+  \item (15 pts) Compute the variance , standard deviation, and 
+                 Mean Absolute Deviation.
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}
